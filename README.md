@@ -1,5 +1,6 @@
 # TEST1
-First things
+Comp Sci Course Description
+
 IB Diploma Computer Science SL
 Students shall be awarded two credits for successful completion of this course. IB DP CS is not limited to just programming. It includes a fair amount of generalized computer information as well. While it is not required, we recommend taking several tech courses prior to enrolling in IB DP CS.
 
