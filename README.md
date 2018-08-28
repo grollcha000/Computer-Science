@@ -78,3 +78,6 @@ A bit of reading material:
 -Crossing the Line: Collusion or Collaboration...
 
 -Robert College's Collaboration Guidelines
+
+TEST1/Class Notes
+
