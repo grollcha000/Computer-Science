@@ -79,5 +79,4 @@ A bit of reading material:
 
 -Robert College's Collaboration Guidelines
 
-TEST1/Class Notes
-https://github.com/grollcha000/TEST1/blob/master/Class%20Notes
+[Class Notes](https://github.com/grollcha000/TEST1/blob/master/Class%20Notes)
