@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<script>
+
+
+document.body.style.backgroundColor = "red";
+
+
+			function callFunction(){
+				document.getElementById("h1").innerHTML ="Markup Language";
+				document.getElementById("p1").innerHTML ="a computer language that uses tags to define elements within a document. It is human-readable, meaning markup files contain standard words, rather than typical programming syntax.";
+				}
+
+			function call2(){
+				document.getElementById("h1").innerHTML ="High Level Programming Language";
+				document.getElementById("p1").innerHTML ="is a programming language such as C, FORTRAN, or Pascal that enables a programmer to write programs that are more or less independent of a particular type of computer.";
+				}
+			function call3(){
+				document.getElementById("h1").innerHTML ="Low Level Programming Language";
+				document.getElementById("p1").innerHTML ="A low-level programming language is a programming language that provides little or no abstraction from a computer's instruction set architecture—commands or functions in the language map closely to processor instructions.";
+				}
+			function call4(){
+				document.getElementById("h1").innerHTML ="Compiled Programming Language";
+				document.getElementById("p1").innerHTML ="Bonjour le monde!";
+					}
+			function call5(){
+				document.getElementById("h1").innerHTML ="Interpreted Programming Language";
+				document.getElementById("p1").innerHTML ="你好，世界";
+						}
+
+		</script>
+
+	</head>
+
+		<body>
+			<script>document.body.style.backgroundColor = "lightgreen";
+			</script>
+<center>
+				<h1 id="h1">WHAT DO YOU SPEAK?</h1>
+				<p id="p1">CHOOSE A LANGUAGE</p>
+
+			<button onclick="callFunction()">Markup Language</button>
+			<button onclick="call2()">High Level Programming Language</button>
+			<button onclick="call3()">Low Level Programming Language</button>
+			<button onclick="call4()">Compiled Programming Language</button>
+			<button onclick="call5()">Interpreted Programming Language</button>
+</center>
+
+		</body>
+
+
+
+
+</html>
