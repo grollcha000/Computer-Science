@@ -1,0 +1,59 @@
+<html>
+  <!--head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+  crossorigin=""/>
+  </head>
+  <body>
+  </body-->
+  <head>
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+
+ <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+   crossorigin=""></script>
+</head>
+<body>
+
+<div id="mapid" style="height: 900px; width: 80%; margin: 35px; border-radius: 13px;"></div>
+
+<script>
+  var mymap = L.map('mapid').setView([29.79, -95.54], 11.5);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="https://www.mapbox.com/">Mapbox</a>',
+      maxZoom: 18,
+      id: 'mapbox.streets',
+      accessToken: 'your.mapbox.access.token'
+  }).addTo(mymap);
+
+  var circle = L.circle([29.779802, -95.582925], {
+    color: 'red',
+    fillColor: 'none',
+    fillOpacity: 0.5,
+    radius: 15000
+}).addTo(mymap);
+var m_iu = L.marker([29.7816725,-95.53761299999996]).addTo(mymap);
+m_iu.bindPopup("<center><b>Cinemark Memorial City</b><a href='https://www.cinemark.com/theatre-382'>>> Website >></a></center>");
+
+var m_kam = L.marker([29.7856017,-95.46490340000003]).addTo(mymap);
+m_kam.bindPopup("<center><b>Edwards Houston 23</b><a href='https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=local&cd=1&cad=rja&uact=8&ved=2ahUKEwiC6q6ZmPDfAhVEXKwKHU6DBnIQ_BcwAHoECAEQCA&url=https%3A%2F%2Fwww.regmovies.com%2Ftheaters%2Fedwards-houston-marqe-stadium-23-imax%2FC00207523372&usg=AOvVaw3SKN-2tbTxP8SZiwhKLXV6'> Website </a></center>");
+
+var m_kam = L.marker([29.7320525,-95.51151240000002]).addTo(mymap);
+m_kam.bindPopup("<center><b>AMC Studio 30</b><a href='https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=local&cd=1&cad=rja&uact=8&ved=2ahUKEwjqn4C6mPDfAhUPWK0KHckmAzsQ_BcwAHoECAEQCA&url=https%3A%2F%2Fwww.amctheatres.com%2Fmovie-theatres%2Fhouston%2Famc-studio-30&usg=AOvVaw1mdQ3vSu5iqm13f5j932vX'> Website </a></center>");
+
+var m_kam = L.marker([29.743174, -95.454357]).addTo(mymap);
+m_kam.bindPopup("<center><b>Ipic Theatres</b><a href='https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=local&cd=1&cad=rja&uact=8&ved=2ahUKEwir8YfXmPDfAhVCS60KHQB9ASYQ_BcwAHoECAEQCA&url=https%3A%2F%2Fwww.ipictheaters.com%2F%23%2Fhome%2F12&usg=AOvVaw29aBAYw6OhMIT0veDcGU9r'> Website </a></center>");
+
+var m_kam = L.marker([29.731175, -95.440931]).addTo(mymap);
+m_kam.bindPopup("<center><b>Edwards Greenway Grand Palace 24</b><a href='https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=local&cd=1&ved=2ahUKEwij3dDgmPDfAhVFLK0KHdh1Bz8Q_BcwAHoECAEQCA&url=https%3A%2F%2Fwww.regmovies.com%2Ftheaters%2Fedwards-greenway-grand-palace-stadium-24-rpx%2FC00491833921&usg=AOvVaw2Y5WXbDlEIb3LbSzYjl3pH'> Website </a></center>");
+
+var m_kam = L.marker([29.7816196,-95.56101910000001]).addTo(mymap);
+m_kam.bindPopup("<center><b>Studio Movie Grill</b><a href='https://www.studiomoviegrill.com'> Website </a></center>");
+
+</script>
+
+</body>
+</html>
