@@ -1,3 +1,5 @@
+![Bill Cypher](
+
 [Class Documents](https://github.com/shawnwegs/Starting-Class/blob/master/course-descriptions/IB-DP-CompSci.md)
 
 [Class Notes](https://grollcha000.github.io/Computer-Science/blob/master/Class%20Notes.md)
