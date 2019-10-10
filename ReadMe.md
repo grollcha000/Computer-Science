@@ -1,4 +1,4 @@
-![Bill Cypher](
+![Bill Cypher](https://raw.githubusercontent.com/grollcha000/Computer-Science/master/BILLCYPHER.gif)
 
 [Class Documents](https://github.com/shawnwegs/Starting-Class/blob/master/course-descriptions/IB-DP-CompSci.md)
 
